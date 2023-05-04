@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lista de Tarefas</string>
+    <string name="empty_list">Você não possui tarefas</string>
+    <string name="fill_title">Por favor preencha o titulo da tarefa</string>
+    <string name="task_register">Registre a Tarefa</string>
+    <string name="task_title">Titulo</string>
+    <string name="task_priority">Prioridade</string>
+    <string name="task_executed">Executada</string>
+    <string name="task_noExecuted">Não Executada</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="save">Salvar</string>
+    <string name="hint_priority">Digite a prioridade</string>
+    <string name="hint_title">Digite o titulo</string>
+</resources>
