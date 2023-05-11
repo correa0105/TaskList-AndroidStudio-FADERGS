@@ -13,4 +13,42 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Title" parent="Theme.TaskList">
+        <item name="android:background">@drawable/title_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingHorizontal">10pt</item>
+        <item name="android:paddingVertical">5pt</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RoundedBackgrounds" parent="Theme.TaskList">
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+
+    <style name="Label" parent="Theme.TaskList">
+        <item name="android:background">@color/blue_secondary</item>
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Inputs" parent="Theme.TaskList">
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:layout_width">216dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingHorizontal">5pt</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="SaveButton" parent="Theme.TaskList">
+        <item name="android:layout_width">301dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>

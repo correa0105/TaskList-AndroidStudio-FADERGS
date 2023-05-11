@@ -2,15 +2,53 @@
     <!-- Base application theme. -->
     <style name="Theme.TaskList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimary">@color/blue_secondary</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Title" parent="Theme.TaskList">
+        <item name="android:background">@drawable/title_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingHorizontal">10pt</item>
+        <item name="android:paddingVertical">5pt</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RoundedBackgrounds" parent="Theme.TaskList">
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+
+    <style name="Label" parent="Theme.TaskList">
+        <item name="android:background">@color/blue_secondary</item>
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Inputs" parent="Theme.TaskList">
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:layout_width">216dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingHorizontal">5pt</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="SaveButton" parent="Theme.TaskList">
+        <item name="android:layout_width">301dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:shadowColor">#373737</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>
